@@ -4,7 +4,9 @@
 
 pub mod d1;
 pub mod d2;
+pub mod d3;
+pub mod d4;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    d2::part_two()
+    d4::part_two()
 }
